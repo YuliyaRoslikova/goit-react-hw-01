@@ -1,0 +1,25 @@
+.table {
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
+}
+
+.table * {
+    border: 1px solid black;
+}
+
+.headerCell {
+    color: #ffffff;
+}
+
+.headerRow {
+    background-color: #1e1e1e;
+}
+
+.row:nth-child(even) {
+    background-color: #c0c0c0;
+}
+
+.cell {
+    text-transform: capitalize;
+}

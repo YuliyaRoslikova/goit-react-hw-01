@@ -1,0 +1,54 @@
+.box {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.profileLogo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #555555;
+}
+
+.profileName {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.profileDescription {
+    color: grey;
+}
+
+.statList {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: #c0c0c0;
+}
+
+.statItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    border-top: 2px solid grey;
+}
+
+.statItem:not(:last-child) {
+    border-right: 2px solid grey;
+}
+
+.statItemCount {
+    font-weight: 600;
+}
